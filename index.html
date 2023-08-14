@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet/less" type="text/css" href="./style.css">
+	<script src="https://kit.fontawesome.com/fc596df623.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+</head>
+<body>
+
+<h2>Evolution of TTS</h2>
+<h1>Evolution of Text-to-Speech</h1>
+<div class="dropdown-container">
+	<select id="sentenceDropdown" onchange="playAudio()">
+		<option value="">Select Sentence      ---</option>
+		<option value="S1">Sentence 1</option>
+		<option value="S2">Sentence 2</option>
+		<option value="S3">Sentence 3</option>
+		<option value="S4">Sentence 4</option>
+		<option value="S5">Sentence 5</option>
+		<option value="S6">Sentence 6</option>
+		<option value="S7">Sentence 7</option>
+		<option value="S8">Sentence 8</option>
+		<option value="S9">Sentence 9</option>
+		<option value="S10">Sentence 10</option>
+  	</select>
+</div>
+
+
+<div class="timeline">
+
+	<!--first-->
+	<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			1970s
+		</div>
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title">
+				GNU speech: Articulatory
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-1"></p>
+							</div>							
+						</td>
+						<td> 
+							<div class="audioPlayer">
+								<audio id="audio1" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-1"></p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--second-->
+
+	<div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			1980s
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				eSpeak: Formant synthesis
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-2"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio2" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-2"></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--third-->
+
+	<div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			1990s
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				Festival: Diphone concatenative
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-3"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio3" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-3"></p>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--forth-->
+
+	<div class="timeline__event animated fadeInUp timeline__event--type1">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			1990s
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				Festival: : Unit selection concatenative
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-4"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio4" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-4"></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--first-->
+	<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			2005
+		</div>
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title">
+				HTS: SPSS- HMM speech synthesis
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-5"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio5" controls>
+								<!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-5"></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--second-->
+
+	<div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			2015
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				Merlin: Deep-learning speech synth
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-6"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio6" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+						
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-6"></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--third-->
+
+	<div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			2018
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				Tacotron2 + ParallelWaveGAN
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-7"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio7" controls>
+								<!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-7"></p>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--forth-->
+
+	<div class="timeline__event animated fadeInUp timeline__event--type1">
+		<div class="timeline__event__icon">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>
+		<div class="timeline__event__date">
+			2021
+		</div>
+		<div class="timeline__event__content">
+			<div class="timeline__event__title">
+				FastSpeech2 + ParallelWaveGAN
+			</div>
+			<div class="timeline__event__description">
+				<p>Description
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis eveniet 
+					unde recusandae distinctio dicta saepe odit natus iste similique maxime earum amet at, 
+					necessitatibus iusto libero, voluptatum delectus fugit repudiandae maiores praesentium 
+					itaque aperiam porro. Sequi praesentium provident porro quis blanditiis, debitis, qui 
+					aperiam quo maiores aut quasi iure.
+				</p>
+				<table>
+					<tr>
+						<td>
+							<div class="gender-textbody">
+								<p id="gender-text-8"></p>
+							</div>					
+						</td>
+						<td>
+							<div class="audioPlayer">
+								<audio id="audio8" controls>
+								  <!-- Audio source will be set dynamically in JavaScript -->
+								</audio>
+								
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="sent-textbody">
+					<!-- Text source will be set dynamically in JavaScript -->
+					<p id="sentence-text-8"></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script>
+		// Get the audio element and sentence text element
+        const audioElement1 = document.getElementById('audio1');
+        const audioElement2 = document.getElementById('audio2');
+        const audioElement3 = document.getElementById('audio3');
+        const audioElement4 = document.getElementById('audio4');
+        const audioElement5 = document.getElementById('audio5');
+        const audioElement6 = document.getElementById('audio6');
+        const audioElement7 = document.getElementById('audio7');
+        const audioElement8 = document.getElementById('audio8');
+
+        const sentenceTextElement1 = document.getElementById('sentence-text-1');
+        const genderTextElement1 = document.getElementById('gender-text-1');
+        
+        const sentenceTextElement2 = document.getElementById('sentence-text-2');
+        const genderTextElement2 = document.getElementById('gender-text-2');
+
+        const sentenceTextElement3 = document.getElementById('sentence-text-3');
+        const genderTextElement3 = document.getElementById('gender-text-3');
+        
+        const sentenceTextElement4 = document.getElementById('sentence-text-4');
+        const genderTextElement4 = document.getElementById('gender-text-4');
+
+        const sentenceTextElement5 = document.getElementById('sentence-text-5');
+        const genderTextElement5 = document.getElementById('gender-text-5');
+        
+        const sentenceTextElement6 = document.getElementById('sentence-text-6');
+        const genderTextElement6 = document.getElementById('gender-text-6');
+        
+        const sentenceTextElement7 = document.getElementById('sentence-text-7');
+        const genderTextElement7 = document.getElementById('gender-text-7');
+        
+        const sentenceTextElement8 = document.getElementById('sentence-text-8');
+        const genderTextElement8 = document.getElementById('gender-text-8');
+	
+		// Function to handle radio button change
+		function playAudio() {
+			const dropdown = document.getElementById('sentenceDropdown');
+			const selectedValue = dropdown.value;
+			let sentenceText = '';
+			let genderText = '';
+			let sentence1Text = '';
+			let gender1Text = '';
+			let sentence2Text = '';
+			let gender2Text = '';
+			let sentence3Text = '';
+			let gender3Text = '';
+			let sentence4Text = '';
+			let gender4Text = '';
+			let sentence5Text = '';
+			let gender5Text = '';
+			let sentence6Text = '';
+			let gender6Text = '';
+			let sentence7Text = '';
+			let gender7Text = '';
+			let sentence8Text = '';
+			let gender8Text = '';
+            let audio1Value = ''; 
+            let audio2Value = ''; 
+            let audio3Value = ''; 
+            let audio4Value = ''; 
+            let audio5Value = ''; 
+            let audio6Value = ''; 
+            let audio7Value = ''; 
+            let audio8Value = ''; 
+	
+            // first sentence
+		  if (selectedValue === 'S1') {
+            audio1Value = "./assests/media1/s0_male.wav";
+            audio2Value = "./assests/media2/s0_male.wav";
+            audio3Value = "./assests/media3/s0_male.wav";
+            audio4Value = "./assests/media4/s0_male.wav";
+            audio5Value = "./assests/media5/s0_male.wav";
+            audioElement6.style.display = 'none';
+            audioElement7.style.display = 'none';
+            audioElement8.style.display = 'none';
+
+
+			sentence1Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence2Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence3Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence4Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence5Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+
+			sentenceTextElement6.style.display = 'none';
+			sentenceTextElement7.style.display = 'none';
+			sentenceTextElement8.style.display = 'none';
+
+			gender1Text = ' Male Voice';
+			gender2Text = ' Male Voice';
+			gender3Text = ' Male Voice';
+			gender4Text = ' Male Voice';
+			gender5Text = ' Male Voice';
+
+			genderTextElement6.style.display = 'none';
+			genderTextElement7.style.display = 'none';
+			genderTextElement8.style.display = 'none';
+
+			sentenceText = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			genderText = 'Male';
+
+			// second sentence
+		  } else if (selectedValue === 'S2') {
+            audioElement1.style.display = 'none';
+            audioElement2.style.display = 'none';
+            audioElement3.style.display = 'none';
+            audio4Value = "./assests/media4/s0_female.wav";
+            audio5Value = "./assests/media5/s0_female.wav";
+            audio6Value = "./assests/media6/s0_female.wav";
+            audio7Value = "./assests/media7/s0_female.wav";
+            audio8Value = "./assests/media8/s0_female.wav";
+
+			sentenceTextElement1.style.display = 'none';
+			sentenceTextElement2.style.display = 'none';
+			sentenceTextElement3.style.display = 'none';
+
+			sentence4Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence5Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence6Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence7Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+			sentence8Text = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+
+
+			sentenceText = 'Dearest creature in Creation, Studying English pronunciation, I will teach you in my verse Sounds like corpse, corps, horse and worse. It will keep you, Susy, busy, Make your head with heat grow dizzy.';
+
+			genderTextElement1.style.display = 'none';
+			genderTextElement2.style.display = 'none';
+			genderTextElement3.style.display = 'none';
+
+			gender4Text = ' Female Voice';
+			gender5Text = ' Female Voice';
+			gender6Text = ' Female Voice';
+			gender7Text = ' Female Voice';
+			gender8Text = ' Female Voice';
+			genderText = 'Female';
+
+            // third sentence
+		  } else if (selectedValue === 'S3') {
+            audioElement1.style.display = 'none';
+            audio2Value = "./assests/media2/s1_male.wav";
+            audio3Value = "./assests/media3/s1_male.wav";
+            audio4Value = "./assests/media4/s1_male.wav";
+            audio5Value = "./assests/media5/s1_male.wav";
+            audioElement6.style.display = 'none';
+            audioElement7.style.display = 'none';
+            audioElement8.style.display = 'none';
+
+			sentenceTextElement1.style.display = 'none';
+			sentence2Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentence3Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentence4Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentence5Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentenceTextElement6.style.display = 'none';
+			sentenceTextElement7.style.display = 'none';
+			sentenceTextElement8.style.display = 'none';
+
+			genderTextElement1.style.display = 'none';
+			gender2Text = ' Male Voice';
+			gender3Text = ' Male Voice';
+			gender4Text = ' Male Voice';
+			gender5Text = ' Male Voice';
+			genderTextElement6.style.display = 'none';
+			genderTextElement7.style.display = 'none';
+			genderTextElement8.style.display = 'none';
+
+			sentenceText = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			genderText = 'Male';
+			// fourth sentence
+		  } else if (selectedValue === 'S4') {
+            audioElement1.style.display = 'none';
+            audioElement2.style.display = 'none';
+            audioElement3.style.display = 'none';
+            audio4Value = "./assests/media4/s1_female.wav";
+            audio5Value = "./assests/media5/s1_female.wav";
+            audioElement6.style.display = 'none';
+            audio7Value = "./assests/media7/s1_female.wav";
+            audio8Value = "./assests/media8/s1_female.wav";
+
+			sentenceTextElement1.style.display = 'none';
+			sentenceTextElement2.style.display = 'none';
+			sentenceTextElement3.style.display = 'none';
+			sentence4Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentence5Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentenceTextElement6.style.display = 'none';
+			sentence7Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			sentence8Text = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+
+			genderTextElement1.style.display = 'none';
+			genderTextElement2.style.display = 'none';
+			genderTextElement3.style.display = 'none';
+			gender4Text = ' Female Voice';
+			gender5Text = ' Female Voice';
+			genderTextElement6.style.display = 'none';
+			gender7Text = ' Female Voice';
+			gender8Text = ' Female Voice';
+
+			sentenceText = 'Regarded as a continuation of the Klein Erlangen Programme, in the sense that a geometrical space with its group of transformations is generalized to a category with its algebra of mappings.';
+			genderText = 'Female';
+            //fifth sentence
+		  } else if (selectedValue === 'S5') {
+            audioElement1.style.display = 'none';
+            audio2Value = "./assests/media2/s2_male.wav";
+            audio3Value = "./assests/media3/s2_male.wav";
+            audio4Value = "./assests/media4/s2_male.wav";
+            audio5Value = "./assests/media5/s2_male.wav";
+            audioElement6.style.display = 'none';
+            audioElement7.style.display = 'none';
+            audioElement8.style.display = 'none';
+
+			sentenceTextElement1.style.display = 'none';
+			sentence2Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentence3Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentence4Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentence5Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentenceTextElement6.style.display = 'none';
+			sentenceTextElement7.style.display = 'none';
+			sentenceTextElement8.style.display = 'none';
+
+			genderTextElement1.style.display = 'none';
+			gender2Text =' Male Voice';
+			gender3Text =' Male Voice';
+			gender4Text =' Male Voice';
+			gender5Text =' Male Voice';
+			genderTextElement6.style.display = 'none';
+			genderTextElement7.style.display = 'none';
+			genderTextElement8.style.display = 'none';
+			sentenceText = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			genderText = 'Male';
+
+			//sixth sentence
+		  } else if (selectedValue === 'S6') {
+            audioElement1.style.display = 'none';
+            audioElement2.style.display = 'none';
+            audioElement3.style.display = 'none';
+            audio4Value = "./assests/media4/s2_female.wav";
+            audio5Value = "./assests/media5/s2_female.wav";
+            audioElement6.style.display = 'none';
+            audio7Value = "./assests/media7/s2_female.wav";
+            audio8Value = "./assests/media8/s2_female.wav";
+
+			sentenceTextElement1.style.display = 'none';
+			sentenceTextElement2.style.display = 'none';
+			sentenceTextElement3.style.display = 'none';
+			sentence4Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentence5Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentenceTextElement6.style.display = 'none';
+			sentence7Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			sentence8Text = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+
+			genderTextElement1.style.display = 'none';
+			genderTextElement2.style.display = 'none';
+			genderTextElement3.style.display = 'none';
+			gender4Text =' Female Voice';
+			gender5Text =' Female Voice';
+			genderTextElement6.style.display = 'none';
+			gender7Text =' Female Voice';
+			gender8Text =' Female Voice';
+			
+			sentenceText = 'Bust of Herodotus in Stoa of Attalus, one of the earliest nameable historians whose work survives.';
+			genderText = 'Female';
+
+            //seventh sentence
+		  } else if (selectedValue === 'S7') {
+            audioElement1.style.display = 'none';
+            audio2Value = "./assests/media2/s3_male.wav";
+            audio3Value = "./assests/media3/s3_male.wav";
+            audio4Value = "./assests/media4/s3_male.wav";
+            audio5Value = "./assests/media5/s3_male.wav";
+            audioElement6.style.display = 'none';
+            audioElement7.style.display = 'none';
+            audioElement8.style.display = 'none';
+
+			sentenceTextElement1.style.display = 'none';
+			sentence2Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentence3Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentence4Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentence5Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentenceTextElement6.style.display = 'none';
+			sentenceTextElement7.style.display = 'none';
+			sentenceTextElement8.style.display = 'none';
+
+			genderTextElement1.style.display = 'none';
+			gender2Text = ' Male Voice';
+			gender3Text = ' Male Voice';
+			gender4Text = ' Male Voice';
+			gender5Text = ' Male Voice';
+			genderTextElement6.style.display = 'none';
+			genderTextElement7.style.display = 'none';
+			genderTextElement8.style.display = 'none';
+			sentenceText = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			genderText = 'Male';
+
+			//eigth sentence
+		  } else if (selectedValue === 'S8') {
+            audioElement1.style.display = 'none';
+            audioElement2.style.display = 'none';
+            audioElement3.style.display = 'none';
+            audio4Value = "./assests/media4/s3_female.wav";
+            audio5Value = "./assests/media5/s3_female.wav";
+            audioElement6.style.display = 'none';
+            audio7Value = "./assests/media7/s3_female.wav";
+            audio8Value = "./assests/media8/s3_female.wav";
+
+			sentenceTextElement1.style.display = 'none';
+			sentenceTextElement2.style.display = 'none';
+			sentenceTextElement3.style.display = 'none';
+			sentence4Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentence5Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentenceTextElement6.style.display = 'none';
+			sentence7Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			sentence8Text = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+
+			genderTextElement1.style.display = 'none';
+			genderTextElement2.style.display = 'none';
+			genderTextElement3.style.display = 'none';
+			gender4Text = ' Female Voice';
+			gender5Text = ' Female Voice';
+			genderTextElement6.style.display = 'none';
+			gender7Text = ' Female Voice';
+			gender8Text = ' Female Voice';
+
+			sentenceText = 'James Watson and Francis Crick determined the structure of DNA in 1953, using the X-ray crystallography work of Rosalind Franklin and Maurice Wilkins that indicated DNA has a helical structure';
+			genderText = 'Female';
+
+            //ninth sentence
+		  } else if (selectedValue === 'S9') {
+            audioElement1.style.display = 'none';
+            audio2Value = "./assests/media2/s4_male.wav";
+            audio3Value = "./assests/media3/s4_male.wav";
+            audio4Value = "./assests/media4/s4_male.wav";
+            audio5Value = "./assests/media5/s4_male.wav";
+            audioElement6.style.display = 'none';
+            audioElement7.style.display = 'none';
+            audioElement8.style.display = 'none';
+
+			sentenceTextElement1.style.display = 'none';
+			sentence2Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			sentence3Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			sentence4Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			sentence5Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			sentenceTextElement6.style.display = 'none';
+			sentenceTextElement7.style.display = 'none';
+			sentenceTextElement8.style.display = 'none';
+
+			genderTextElement1.style.display = 'none';
+			gender2Text = ' Male Voice';
+			gender3Text = ' Male Voice';
+			gender4Text = ' Male Voice';
+			gender5Text = ' Male Voice';
+			genderTextElement6.style.display = 'none';
+			genderTextElement7.style.display = 'none';
+			genderTextElement8.style.display = 'none';
+
+			sentenceText = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			genderText = 'Male';
+		  } else if (selectedValue === 'S10') {
+            audioElement1.style.display = 'none';
+            audioElement2.style.display = 'none';
+            audioElement3.style.display = 'none';
+            audio4Value = "./assests/media4/s4_female.wav";
+            audio5Value = "./assests/media5/s4_female.wav";
+            audioElement6.style.display = 'none';
+            audio7Value = "./assests/media7/s4_female.wav";
+            audio8Value = "./assests/media8/s4_female.wav";
+
+			sentenceTextElement1.style.display = 'none';
+			sentenceTextElement2.style.display = 'none';
+			sentenceTextElement3.style.display = 'none';
+			sentence4Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.'; 
+			sentence5Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.'; 
+			sentenceTextElement6.style.display = 'none';
+			sentence7Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.'; 
+			sentence8Text = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+
+			genderTextElement1.style.display = 'none';
+			genderTextElement2.style.display = 'none';
+			genderTextElement3.style.display = 'none';
+			gender4Text = ' Female Voice'; 
+			gender5Text = ' Female Voice'; 
+			genderTextElement6.style.display = 'none';
+			gender7Text = ' Female Voice';
+			gender8Text = ' Female Voice';
+			
+			sentenceText = 'These early attempts to understand microscopic phenomena, now known as the "old quantum theory", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, and others.';
+			genderText = 'Female';
+		  }
+	
+            audioElement1.src = audio1Value;
+            audioElement2.src = audio2Value;
+            audioElement3.src = audio3Value;
+            audioElement4.src = audio4Value;
+            audioElement5.src = audio5Value;
+            audioElement6.src = audio6Value;
+            audioElement7.src = audio7Value;
+            audioElement8.src = audio8Value;
+            sentenceTextElement1.textContent = sentence1Text;
+            sentenceTextElement2.textContent = sentence2Text;
+            sentenceTextElement3.textContent = sentence3Text;
+            sentenceTextElement4.textContent = sentence4Text;
+            sentenceTextElement5.textContent = sentence5Text;
+            sentenceTextElement6.textContent = sentence6Text;
+            sentenceTextElement7.textContent = sentence7Text;
+            sentenceTextElement8.textContent = sentence8Text;
+            genderTextElement1.textContent = gender1Text;
+            genderTextElement2.textContent = gender2Text;
+            genderTextElement3.textContent = gender3Text;
+            genderTextElement4.textContent = gender4Text;
+            genderTextElement5.textContent = gender5Text;
+            genderTextElement6.textContent = gender6Text;
+            genderTextElement7.textContent = gender7Text;
+            genderTextElement8.textContent = gender8Text;
+            
+                // Set the default state of the audio elements to paused
+            audioElement1.playState = 'paused';
+            audioElement2.playState = 'paused';
+            audioElement3.playState = 'paused';
+            audioElement4.playState = 'paused';
+            audioElement5.playState = 'paused';
+            audioElement6.playState = 'paused';
+            audioElement7.playState = 'paused';
+            audioElement8.playState = 'paused';
+            }
+
+            // Add an event listener to the audio elements to play the audio when clicked
+            audioElement1.addEventListener('click', function() {
+                audioElement1.play();
+            });
+
+            audioElement2.addEventListener('click', function() {
+                audioElement2.play();
+            });
+
+            audioElement3.addEventListener('click', function() {
+                audioElement3.play();
+            });
+            
+            audioElement4.addEventListener('click', function() {
+                audioElement4.play();
+            });
+
+            audioElement5.addEventListener('click', function() {
+                audioElement5.play();
+            });
+            
+            audioElement6.addEventListener('click', function() {
+                audioElement6.play();
+            });
+
+            audioElement7.addEventListener('click', function() {
+                audioElement7.play();
+            });
+            
+            audioElement8.addEventListener('click', function() {
+                audioElement8.play();
+            });
+
+		  </script>
+</body>
+</html>
